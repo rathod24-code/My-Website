@@ -44,7 +44,7 @@ portfolio/
 ## 📬 Contact Me  
 📧 Email: **rathod24@iiserb.ac.in**  
 🐙 GitHub: [**rathod24-code**](https://github.com/rathod24-code)  
-💼 LinkedIn: [**Rahul Rathod**](rahul-rathod-52b91a283)  
+💼 LinkedIn: [**Rahul Rathod**](rahul-rathod77)  
 
 > 💡 **If you like this project, don’t forget to star ⭐ the repository!*  
 
