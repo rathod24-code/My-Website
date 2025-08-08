@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Rahul Rathod — Portfolio</title>
+  <meta name="description" content="Portfolio of Rahul Rathod — Frontend Developer and AI/ML enthusiast. Projects, skills and contact." />
+  <link rel="stylesheet" href="clone.css">
+ 
+</head>
+<body>
+  <div class="wrap">
+    <header class="site hero-anim" aria-label="Top header">
+      <div>
+        <h1 class="name"><span class="gradient">Rahul Rathod</span></h1>
+        <div class="sub">Frontend Developer • Aspiring AI Web App Engineer</div>
+
+        <nav class="topnav" aria-label="Main navigation">
+          <a href="#about">About</a>
+          <a href="#projects">Projects</a>
+          <a href="#skills">Skills</a>
+          <a href="#contact">Contact</a>
+          <a href="https://github.com/rathod24-code" target="_blank" rel="noopener noreferrer">GitHub</a>
+        </nav>
+      </div>
+
+      <aside class="contact-panel" aria-labelledby="contact-heading">
+        <h3 id="contact-heading">Contact</h3>
+        <p>Want to work together or see my code? I usually reply within a day.</p>
+        <div style="display:flex;gap:10px;flex-wrap:wrap;justify-content:flex-end">
+          <a class="btn" href="mailto:ra9021232206@gmail.com">Email Me</a>
+          <a class="btn" href="https://github.com/rathod24-code" target="_blank" rel="noopener noreferrer">View GitHub</a>
+        </div>
+      </aside>
+    </header>
+
+    <main>
+      <section id="about" class="card" aria-labelledby="about-title">
+        <h2 id="about-title">About Me</h2>
+        <p class="lead">Hi — I'm Rahul, an engineering student at IISER Bhopal. I build responsive web apps with a focus on user experience and am learning to integrate AI into web products. I enjoy solving problems, learning DSA, and creating practical ML demos.</p>
+        <p>Currently seeking remote frontend opportunities where I can contribute UI skills and gradually add AI features to products.</p>
+      </section>
+
+      <aside>
+        <section id="skills" class="card" aria-labelledby="skills-title">
+          <h2 id="skills-title">Skills</h2>
+          <div class="skills" role="list" aria-label="skills list">
+            <div class="skill" role="listitem">HTML</div>
+            <div class="skill" role="listitem">CSS</div>
+            <div class="skill" role="listitem">JavaScript</div>
+            <div class="skill" role="listitem">React (Basics)</div>
+            <div class="skill" role="listitem">Git</div>
+            <div class="skill" role="listitem">C++ Programing</div>
+            <div class="skill" role="listitem">DSA(Basic)</div>
+          </div>
+        </section>
+
+        <section class="card" style="margin-top:12px" aria-labelledby="edu-title">
+          <h2 id="edu-title">Education</h2>
+          <p class="lead">B.S. Engineering Science — IISER Bhopal</p>
+        </section>
+      </aside>
+
+      <section id="projects" class="card" style="grid-column:1/-1" aria-labelledby="projects-title">
+        <h2 id="projects-title">Projects</h2>
+        <div class="projects-grid">
+          <article class="project" aria-labelledby="p1">
+            <h3 id="p1">Smart Classroom Management System</h3>
+            <p>Prototype frontend for real-time alerts, attendance UI, and student dashboard. Built during SIH.</p>
+            <a href="https://github.com/rathod24-code" target="_blank" rel="noopener noreferrer">View repo</a>
+          </article>
+
+          <article class="project" aria-labelledby="p2">
+            <h3 id="p2">Real-time E-commerce App (Frontend)</h3>
+            <p>Product listing, cart and demo checkout UI. Focused on responsive layouts and simple state management.</p>
+            <a href="https://github.com/rathod24-code" target="_blank" rel="noopener noreferrer">View repo</a>
+          </article>
+
+          <article class="project" aria-labelledby="p3">
+            <h3 id="p3">Helmet Detection (ML Demo)</h3>
+            <p>Proof-of-concept using a computer vision model; demo frontend to upload images and show predictions.</p>
+            <a href="https://github.com/rathod24-code" target="_blank" rel="noopener noreferrer">View repo</a>
+          </article>
+        </div>
+      </section>
+
+      <section id="contact" class="card" style="grid-column:1/-1" aria-labelledby="contact-form-title">
+        <h2 id="contact-form-title">Get in touch</h2>
+        <form class="contact-form" onsubmit="handleContact(event)" aria-label="contact form">
+          <input type="text" id="cname" placeholder="Your name" required aria-required="true" />
+          <input type="email" id="cemail" placeholder="Your email" required aria-required="true" />
+          <textarea id="cmsg" rows="4" placeholder="Your message" required aria-required="true"></textarea>
+          <div style="display:flex;gap:8px;justify-content:flex-end">
+            <button type="submit">Send message</button>
+          </div>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <small>© Rahul Rathod • <a href="https://github.com/rathod24-code" target="_blank" rel="noopener noreferrer">rathod24-code</a></small>
+    </footer>
+  </div>
+  <script src="hm.js"></script>
+</body>
+</html>
